@@ -8,3 +8,4 @@ loader.engine.document.getElementById(107353245).click();
 };
 
 loader.engine.document.getElementById(107353245).onclick = roundResult;
+window.onclick = roundResult;
