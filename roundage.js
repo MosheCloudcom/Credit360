@@ -5,4 +5,5 @@ var roundedValue1 = Math.round(result1 * 1) / 1;
 loader.engine.document.getElementById(107353245).setValue(({"value": roundedValue1})); 
 };
 objtoclick.click()
-window.onclick = roundResult;
+objtoclick.onclick = roundResult;
+//window.onclick = roundResult;
