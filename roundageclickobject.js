@@ -3,9 +3,6 @@ var result1 = loader.engine.document.getElementById(107353245).getProperty('valu
 
 var roundedValue1 = Math.round(result1 * 1) / 1;
 loader.engine.document.getElementById(107353245).setValue(({"value": roundedValue1})); 
-loader.engine.document.getElementById(107353245).click();
-
 };
 
-loader.engine.document.getElementById(107353245).onclick = roundResult;
 window.onclick = roundResult;
